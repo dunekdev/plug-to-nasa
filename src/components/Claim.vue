@@ -11,6 +11,13 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    #claim {
+        text-align: center;
+        @media (min-width: 1200px){
+            p {
+                font-size: 20px;
+            }
+        }
+    }
 </style>
